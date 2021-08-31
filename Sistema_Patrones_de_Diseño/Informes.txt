@@ -1,0 +1,54 @@
+Para completar el ejercicio 13.
+  Hubo incovenientes en la clase Program.
+ La  informar() estaba casteado para Numero, tuvimos que castear a Persona.
+
+AL pedir el valor al usuario tambien, tuvimos que crear una instancia de Persona, en vez de Numero. 
+
+
+Errores evitables:
+
+     La funcion llenar() que es de Numeros. Dio error ya que al cambiar el casteo de Numero a Persona, cambiamos por error tambien el casteo en esta funcion.
+     Cosa que no habia que hacer, ya que la funcion llenar() es para Numeros.
+
+
+Todo lo demás funcionó a la perfección, no se requirió modificar ninguna clase.
+
+
+
+
+
+Agregamos una función ComprobarValor(string valor) para comprobar que el int ingresado por consola no era mayor a 9 digitos.
+Ya que sino, se generaba una excepcion. Tambien comprueba que no se ingresen letras.
+
+
+
+"""FINAL"""
+
+Finalmente implementamos la funcion informarGeneral. De tal forma que funcione para todos los tipos Numero, Persona y Alumno.
+
+Para eso agregamos un metodo informar() en IComparable que devuelve un string. Lo implementamos en cada clase y pudimos usarlo en informarGeneral()
+
+
+
+
+PRACTICA 2
+
+Implementamos la interfaz Estrategia_de_Comparacion con metodos sosIgual, sosMayor y sosMenor, que implementan las clases Comparar_Nombre, Comparar_DNI, Comparar_Legajo y Comparar_Promedio
+Las primeras dos clases pueden ser usadas por la clase Persona y subclases de esta. Las ultimas dos son unicamente para Alumno, que ya implementa las 4 estrategias de comparacion en la clase.
+
+
+Modificamos el método informarGeneral() :  Ahora hacemos uso de un nuevo método PedirValorConsola(IColeccionable) para delegar la funcion de pedir un elemento por consola al usuario y verificar si pertenece  a la colección. Además este método pide todos los datos necesarios según el tipo del objeto.
+
+
+
+FIN""""
+
+ Ejercicios hechos hasta el punto 10 de la practica2 
+Funciona todo, solamente que la clase Conjunto no llena la colección con 20 estudiantes, ya que, si uno ya está en la colección no agrega otro.
+ En general agrega 8 o 9. Pero, es porque por defecto Alumno compara por nombre. Si seteamos a que compare por dni, es más probable que Conjunto llene con 20 estudiantes la coleccion. Lo que tiene más sentido, ya que el dni no puede repetirse.
+
+CLASES Iterador_de_Pila Y Iteradora_de_Cola :
+      En estas dos clases implementamos la lógica de que cada vez que una pila o cola termina de iterarse por completo, automaticamente se llene devuelta.
+    Esto fue necesario porque sino, al cambiar de Estrategia de Comparación la pila o cola se vaciaban y no podían ser impresas nuevamente por el Iterador.  
+  Además, el método primero() de estas dos clases genera que la pila o cola vuelvan a llenarse devuelta, sin importar en el recorrido en que se encontraba. Aunque, si durante las iteraciones los elementos de pila/cola fueron modificados antes de hacer primero(), estas modificaciones se mantendrán.
+
