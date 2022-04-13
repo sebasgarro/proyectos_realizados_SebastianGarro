@@ -1,6 +1,9 @@
 
+
+  Para hacer pruebas ejecutar bin/Debug/netcoreapp3.1/Practica1.exe
 # Resumen:
  Este Proyecto fue una Práctica que consistió en crear desde cero un sistema para la administración de un aula, pasar lista y tomar exámen. 
+ Aunque, su estructura flexible permite utilizarlo para otros proyectos que involucren objetos similares.
  
 # Puntos que considero importantes:
 
