@@ -1,6 +1,6 @@
 
 # Resumen:
- Este Proyecto consistió en crear desde cero un sistema para la administración de un aula, pasar lista y tomar exámen. 
+ Este Proyecto fue una Práctica que consistió en crear desde cero un sistema para la administración de un aula, pasar lista y tomar exámen. 
  
 # Puntos que considero importantes:
 
