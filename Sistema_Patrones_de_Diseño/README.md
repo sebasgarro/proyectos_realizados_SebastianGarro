@@ -1,5 +1,8 @@
 
-# Este Proyecto consistió en crear desde cero un sistema para la administración de un aula, pasar lista y tomar exámen. 
+# Resumen:
+ Este Proyecto consistió en crear desde cero un sistema para la administración de un aula, pasar lista y tomar exámen. 
+ 
+# Puntos que considero importantes:
 
 ## Patrones de Diseño.
   Los patrones de diseño utilzados durante la implementación son: Estrategy, Iterator, Template Method, Factory Method, Change of Responsability, Decorator, Proxy, Command, Composite, Adapter y Observer.
@@ -10,6 +13,7 @@
 ## Estructura de datos.
   Se implementan y adaptan desde cero las siguientes estructuras de datos: Pila, Cola, Conjunto y Diccionario.
   
-## El desarrollo de este proyecto fue una gran experiencia para conocer la importancia de los Patrones de diseño en la mantenibilidad del sistema, así como también la naturalidad y simpleza de su uso una vez implementado. 
-## También fue interesante y enriquecedor profundizar y comprender las estructuras de datos mencionadas anteriormente.
+## Conclusiones:
+ El desarrollo de este proyecto fue una gran experiencia para conocer la importancia de los Patrones de diseño en la mantenibilidad del sistema, así como también la naturalidad y simpleza de su uso una vez implementado. 
+ También fue interesante y enriquecedor profundizar y comprender las estructuras de datos mencionadas anteriormente. Ya que, uno puede tener un mayor panorama de cuándo es conveniente una u otra, considerando las ventajas y desventajas frente a distintas situaciones.
 
