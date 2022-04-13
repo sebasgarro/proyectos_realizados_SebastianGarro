@@ -1,3 +1,5 @@
+## Descargar y ejecutar
+ Podes probrarlo ejecutando el archivo que se encuentra en test/bin/Debug/test.exe
 
 # Resumen.
  En este proyecto me encargué de desarrollar la estrategia de defensa del BOT al jugar contra el usuario.
